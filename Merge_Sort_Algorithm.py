@@ -1,5 +1,5 @@
-# Time - O(n(log(n)))
-# Space - O(n)
+# Time complexity - O(n(log(n)))
+# Space complexity - O(n)
 
 def mergesort(array):
     if len(array) == 1:
@@ -32,4 +32,4 @@ def mergesortedarrays(lefthalf, righthalf):
     return sortedarray
     
 array = [4,2,3,1,5,9,8,7]
-print(mergesort(array))
+mergesort(array)
