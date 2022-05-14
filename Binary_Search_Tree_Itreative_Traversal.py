@@ -70,6 +70,6 @@ def postorderIterative(root):
             stack.append(node.right)
     return nodeList
     
-print(preorderIterative(root))
-print(inorderIterative(root))
-print(postorderIterative(root))
+preorderIterative(root)
+inorderIterative(root)
+postorderIterative(root)
